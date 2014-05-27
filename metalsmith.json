@@ -3,6 +3,9 @@
   "destination": "./",
   "plugins": {
     "metalsmith-markdown": {},
-    "metalsmith-sass": {}
+    "metalsmith-sass": {},
+    "metalsmith-templates": {
+      "engine": "handlebars"
+    }
   }
 }
