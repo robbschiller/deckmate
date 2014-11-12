@@ -4,15 +4,17 @@
   "description": "Build your deck, mate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node build.js"
   },
   "author": "Robb Schiller <robbschiller@gmail.com>",
   "license": "MIT",
+  "repository": "git@github.com:robbschiller/deckmate.git",
   "dependencies": {
+    "handlebars": "^2.0.0-alpha.4",
     "metalsmith": "^0.8.0",
+    "metalsmith-ignore": "^0.1.2",
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-sass": "^0.1.1",
-    "handlebars": "^2.0.0-alpha.4",
     "metalsmith-templates": "^0.5.0"
   }
 }
